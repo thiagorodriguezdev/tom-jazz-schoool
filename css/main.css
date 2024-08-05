@@ -4,9 +4,11 @@
 
 .introducao {
   display: flex;
-  border-right: 1px solid #000;
-  border-left: 1px solid #000;
+  border-right: 0.1rem solid #000;
+  border-bottom: 0.1rem solid #000;
+  border-left: 0.1rem solid #000;
   max-width: 131.6rem;
+  height: 75.6rem;
 }
 
 .introducao-text {
@@ -24,10 +26,22 @@
 .introducao-text h1 .impactante {
   color: #ed4d1b;
   font-family: Roboto;
-  font-size: 64px;
+  font-size: 6.4rem;
   font-style: normal;
   font-weight: 900;
   line-height: 105%;
+  position: relative;
+}
+
+.introducao-text h1 .impactante::before {
+  content: "";
+  width: 100%;
+  max-width: 3.9785rem;
+  height: 3.5748rem;
+  background: url("../img/three-dashes.svg") no-repeat center center;
+  position: absolute;
+  left: 7rem;
+  top: 7rem;
 }
 
 .introducao-text p {
@@ -50,6 +64,16 @@
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: 500;
+  position: relative;
 }
 
-
+.introducao-text .btn-introducao::before {
+  content: "";
+  width: 100%;
+  background: url("../img/arrow-curve.svg") no-repeat center center;
+  position: absolute;
+  max-width: 18.75rem;
+  height: 10.55rem;
+  top: 4.5rem;
+  left: 12rem;
+}
