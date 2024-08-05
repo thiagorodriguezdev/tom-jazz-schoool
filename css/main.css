@@ -77,3 +77,140 @@
   top: 4.5rem;
   left: 12rem;
 }
+
+.introducao-components {
+  display: flex;
+  gap: 1.6rem;
+  padding: 0 90px;
+  border-right: 0.1rem solid #000;
+  border-left: 0.1rem solid #000;
+  max-width: 131.6rem;
+}
+
+.components-top,
+.components-bottom {
+  max-width: 27.2rem;
+  height: 30.6rem;
+  border: 0.2rem solid #000;
+  background: #ed4d1b;
+  box-shadow: 0.4rem 0.4rem 0px 0px #000;
+  padding: 2.7rem 0 0 3.3rem;
+}
+
+.components-top {
+  position: relative;
+  top: -10rem;
+}
+
+.components-bottom {
+  background: #ff9a3c;
+  position: relative;
+  top: -8.5rem;
+}
+
+.components-top h2,
+.components-bottom h2 {
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin: 1.6rem 0;
+}
+
+.components-top p,
+.components-bottom p {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 500;
+  max-width: 204px;
+}
+
+.components-top .arrow-right,
+.components-bottom .arrow-right {
+  margin-top: 5rem;
+  margin-left: 17rem;
+}
+
+.conhecer {
+  max-width: 131.6rem;
+  height: 37.6rem;
+  border-right: 0.1rem solid #000;
+  border-bottom: 0.1rem solid #000;
+  border-left: 0.1rem solid #000;
+  text-align: center;
+}
+
+.conhecer h1 {
+  color: #000;
+  font-size: 6.4rem;
+  font-weight: 900;
+  padding-top: 60px;
+}
+
+.conhecer h1 .varios {
+  color: #ed4d1b;
+}
+
+.conhecer .btn-conhecer {
+  width: 22.5rem;
+  height: 4.8rem;
+  box-shadow: 0.4rem 0.4rem 0px 0px #1e1e1e;
+  border: 0.2rem solid #000;
+  background: #ed4d1b;
+
+  color: #000;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 6.4rem;
+}
+
+.footer {
+  display: flex;
+  max-width: 131.6rem;
+  border-right: 0.1rem solid #000;
+  border-left: 0.1rem solid #000;
+  padding: 6.3rem 0 10rem 11.5rem;
+  align-items: center;
+}
+
+.footer .logo p {
+  margin-top: 3.2rem;
+  width: 27.2rem;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.footer .lista {
+  margin-left: 11.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.footer .lista a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .input {
+  margin-left: 120px;
+}
+
+.footer .input p {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+.footer .input input {
+  border: .2rem solid #000;
+  background: #fff;
+  box-shadow: .4rem .4rem 0rem 0rem #000;
+  width: 56rem;
+  height: 4.8rem;
+}
