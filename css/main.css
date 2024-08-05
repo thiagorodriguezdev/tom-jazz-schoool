@@ -1,0 +1,55 @@
+@import url(reset.css);
+@import url(grid.css);
+@import url(header.css);
+
+.introducao {
+  display: flex;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  max-width: 131.6rem;
+}
+
+.introducao-text {
+  padding: 8.8rem 0 0 9rem;
+}
+
+.introducao-text h1 {
+  color: #000;
+  font-size: 6.4rem;
+  font-weight: 900;
+  line-height: 105%;
+  max-width: 46.4rem;
+}
+
+.introducao-text h1 .impactante {
+  color: #ed4d1b;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 105%;
+}
+
+.introducao-text p {
+  max-width: 36.8rem;
+  margin-top: 3.2rem;
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.introducao-text .btn-introducao {
+  box-shadow: 0.4rem 0.4rem 0px 0px #1e1e1e;
+  width: 22.5rem;
+  height: 4.8rem;
+  border: 0.2rem solid #000;
+  background: #ed4d1b;
+  margin-top: 3.2rem;
+
+  color: #000;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+
